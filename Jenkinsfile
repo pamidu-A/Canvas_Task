@@ -9,7 +9,7 @@ pipeline {
       steps {
         script {
           docker.withRegistry('https://002712100444.dkr.ecr.us-east-2.amazonaws.com/', 'ecr:us-east-2:aws-rr-automation') {
-            docker.image('002712100444.dkr.ecr.us-east-2.amazonaws.com/jenkins/kubernates:v45').pull()         
+            docker.image('002712100444.dkr.ecr.us-east-2.amazonaws.com/jenkins/kubernates:v5').pull()         
           }
         }
       }
