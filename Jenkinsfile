@@ -19,7 +19,7 @@ pipeline {
        // docker { image '002712100444.dkr.ecr.us-east-2.amazonaws.com/jekins/kubernates:v1' }
       //}
       steps {
-        //sh 'docker system prune -af'
+        //sh 'docker system prne -af'
         sh 'docker run 002712100444.dkr.ecr.us-east-2.amazonaws.com/jenkins/kubernates:v5'
        
       }
