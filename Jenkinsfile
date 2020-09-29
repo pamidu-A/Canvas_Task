@@ -16,7 +16,7 @@ pipeline {
     }
     stage('Run inside Docker Image') {
       //agent {
-       // docker { image '002712100444.dkr.ecr.us-east-2.amazonaws.com/jenkins/kubernates:v1' }
+       // docker { image '002712100444.dkr.ecr.us-east-2.amazonaws.com/jekins/kubernates:v1' }
       //}
       steps {
         //sh 'docker system prune -af'
