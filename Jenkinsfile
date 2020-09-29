@@ -4,7 +4,7 @@ pipeline {
     disableConcurrentBuilds()
   }
   stages{
-    //Run Commands inside docker image
+    //Run Commands inside dcker image
     stage('Pull Docker Image') {
       steps {
         script {
